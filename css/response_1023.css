@@ -1,0 +1,1049 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 32px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: 16px;
+    }
+
+
+    .content_flex .content
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 67px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item + .accordion_item
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header.margin
+    {
+        margin-bottom: -53px;
+    }
+
+
+    header .bottom
+    {
+        padding-top: 16px;
+    }
+
+
+
+    header .logo img
+    {
+        height: 52px;
+    }
+
+
+
+    header .search
+    {
+        margin-left: 20px;
+    }
+
+
+    header .search .btn
+    {
+        display: flex;
+    }
+
+
+    header .search .mini_modal
+    {
+        visibility: hidden;
+
+        width: 272px;
+
+        pointer-events: none;
+
+        opacity: 0;
+    }
+
+    header .search .mini_modal.active
+    {
+        visibility: visible;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    header .contacts
+    {
+        font-size: 12px;
+    }
+
+
+    header .contacts .time
+    {
+        margin-top: 4px;
+    }
+
+
+    header .messengers
+    {
+        margin-left: 12px;
+    }
+
+
+    header .callback_btn
+    {
+        height: 36px;
+        margin-left: 16px;
+        padding: 10px 12px;
+    }
+
+
+    header .callback_btn .icon
+    {
+        display: none;
+    }
+
+
+    header .compare_link
+    {
+        width: 36px;
+        height: 36px;
+        margin-left: 12px;
+
+        border-radius: 6px;
+    }
+
+
+    header .compare_link .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    header .compare_link .count
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        top: -8px;
+        right: -10px;
+
+        width: 18px;
+        height: 18px;
+    }
+
+
+    header .cart_link
+    {
+        width: 36px;
+        height: 36px;
+        margin-left: 12px;
+
+        border-radius: 6px;
+    }
+
+
+    header .cart_link .count
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        top: -8px;
+        right: -10px;
+
+        width: 18px;
+        height: 18px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+
+    /*------------
+        Filter
+    ------------*/
+    .mob_filter_btn
+    {
+        display: block;
+    }
+
+
+    .filter
+    {
+        display: none;
+
+        padding-top: 20px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: 24px;
+    }
+
+
+    .page_title
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .arrow
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        height: 68px;
+        padding: 0 23px;
+    }
+
+
+    .form .submit_btn
+    {
+        height: 48px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .cont
+    {
+        min-height: 450px;
+    }
+
+
+    .main_slider .title
+    {
+        font-size: 44px;
+    }
+
+
+    .main_slider .link
+    {
+        font-size: 16px;
+
+        padding: 16px 40px;
+
+        border-radius: 5px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .pluses
+    {
+        width: 100%;
+    }
+
+
+    .services .pluses .item
+    {
+        padding: 18px;
+    }
+
+
+    .services .pluses .item .icon
+    {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 16px;
+    }
+
+
+    .services .service .arrow
+    {
+        width: 44px;
+        height: 44px;
+    }
+
+
+    .services .service .arrow .icon
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    .services .service .info
+    {
+        padding: 16px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .date
+    {
+        top: 16px;
+        left: 16px;
+    }
+
+
+    .articles .article .thumb
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block .data
+    {
+        width: 360px;
+        padding-top: 48px;
+    }
+
+
+    .about_block .title
+    {
+        font-size: 60px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .about_block .link
+    {
+        margin-top: 32px;
+
+        border-radius: 5px;
+    }
+
+
+    .about_block .image
+    {
+        width: calc(100% - 384px);
+        height: 464px;
+
+        border-radius: 124px 124px 0 124px;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info .img
+    {
+        width: 600px;
+    }
+
+
+    .error_info .link
+    {
+        margin-top: 40px;
+    }
+
+    .error_info .link a
+    {
+        font-size: var(--font_size);
+        line-height: 52px;
+
+        width: 200px;
+        height: 52px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head
+    {
+        padding: 88px 0 60px;
+    }
+
+
+    .service_head .data
+    {
+        width: 480px;
+    }
+
+
+    .service_head .title
+    {
+        font-size: 44px;
+    }
+
+
+    .service_head .btns .btn
+    {
+        font-size: var(--font_size);
+        line-height: 48px;
+
+        min-width: 160px;
+        height: 48px;
+
+        border-radius: 5px;
+    }
+
+
+
+    /*----------------
+        Price list
+    ----------------*/
+    .price_list .table_wrap
+    {
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+
+        scrollbar-width: none;
+    }
+
+
+    .price_list table
+    {
+        width: 960px;
+    }
+
+
+    .price_list table th
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        padding: 0 24px 16px;
+    }
+
+
+    .price_list table td
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        padding: 11px 24px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row > *,
+    .content .products .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+    .products .product .compare_btn
+    {
+        top: 12px;
+        right: 12px;
+    }
+
+
+    .products .product .images .thumb
+    {
+        height: 200px;
+    }
+
+
+    .products .product .name
+    {
+        padding: 0;
+    }
+
+
+    .products .product .link,
+    .products .product .buy_btn,
+    .content .products .product .link,
+    .content .products .product .buy_btn,
+    .products.viewed .product .link,
+    .products.viewed .product .buy_btn
+    {
+        width: calc(50% - 4px);
+    }
+
+
+    .products .product .link a,
+    .content .products .product .link a,
+    .products.viewed .product .link a
+    {
+        width: 100%;
+    }
+
+
+    .products .product .buy_btn
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .col
+    {
+        width: 100%;
+    }
+
+    .FAQ .col + .col
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*--------------
+        City map
+    --------------*/
+    .city_map #map
+    {
+        height: 400px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images
+    {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+    .product_info .images .thumbs .swiper
+    {
+        padding: 52px 0;
+    }
+
+
+    .product_info .images .thumbs .swiper-slide,
+    .product_info .images .thumbs .image
+    {
+        height: 72px;
+    }
+
+
+    .product_info .images .big .image
+    {
+        height: 428px;
+    }
+
+
+    .product_info .data
+    {
+        width: 100%;
+    }
+
+
+    .product_info .data .product_name
+    {
+        font-size: var(--font_size_title);
+    }
+
+
+    .product_info .data .price .discount
+    {
+        font-size: 20px;
+    }
+
+
+    .product_info .data .price .old
+    {
+        font-size: 16px;
+    }
+
+
+
+    .product_info .additional_services .spoler_btn
+    {
+        font-size: 18px;
+    }
+
+    .product_info .additional_services .spoler_btn .icon
+    {
+        width: 12px;
+        height: 8px;
+    }
+
+
+    .product_info .additional_services .col_amount
+    {
+        width: 200px;
+    }
+
+    .product_info .additional_services .col_price
+    {
+        width: 140px;
+    }
+
+
+    .product_info .additional_services .items
+    {
+        margin-top: -27px;
+    }
+
+
+    .product_info .additional_services .titles
+    {
+        font-size: 18px;
+    }
+
+
+    .product_info .additional_services .service .col_price
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-----------------
+        Product kit
+    -----------------*/
+    .product_kit .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none !important;
+    }
+
+
+    .product_kit .row > *
+    {
+        display: inline-block;
+
+        width: 264px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: middle;
+        white-space: normal;
+
+        scroll-snap-align: start;
+    }
+
+    .product_kit .row > * + *
+    {
+        margin-left: 20px;
+    }
+
+
+    .product_kit .plus,
+    .product_kit .equally
+    {
+        width: 40px;
+    }
+
+
+    .product_kit .discount
+    {
+        width: 180px;
+        padding-left: 0;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .review .arrow
+    {
+        width: 44px;
+        height: 44px;
+    }
+
+
+    .reviews .review .arrow .icon
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    .reviews .review .video_icon
+    {
+        width: 56px;
+        height: 56px;
+    }
+
+    .reviews .review .video_icon .icon
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    .reviews .review .info
+    {
+        padding: 16px;
+    }
+
+
+    .reviews .review .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .reviews .swiper-horizontal > .swiper-pagination-bullets,
+    .reviews .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .reviews .swiper-pagination-custom,
+    .reviews .swiper-pagination-fraction
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info #map
+    {
+        height: 400px;
+    }
+
+
+    .contacts_info .item .label
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .banner
+    {
+        display: none;
+    }
+
+
+    .feedback .form
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------------
+        Compare info
+    ------------------*/
+    .compare_info .compare_features .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .compare_info .products .features
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info
+    {
+        --sidebar_width: 100%;
+    }
+
+
+    .cart_info .head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .cart_info .cart_total
+    {
+        margin-top: 40px;
+    }
+
+
+    .cart_info .cart_total .title
+    {
+        font-size: 24px;
+    }
+
+
+    .cart_info .cart_total .price
+    {
+        font-size: 24px;
+    }
+
+
+    .cart_info aside
+    {
+        margin-bottom: 0;
+    }
+
+
+
+    /*-------------------
+        Checkout info
+    -------------------*/
+    .checkout_info .section + .section
+    {
+        margin-top: 40px;
+    }
+
+
+    .checkout_info .section .title
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .checkout_info .form .methods > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .checkout_info .form .input
+    {
+        height: 68px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .data
+    {
+        width: 100%;
+    }
+
+
+    .about_info .image
+    {
+        width: 100%;
+        height: auto;
+        margin-top: 24px;
+        padding-bottom: 60%;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .photo_gallery .row > *
+    {
+        width: calc(16.819% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+    .photo_gallery .row > *.middle
+    {
+        width: calc(24.925% - 12px);
+    }
+
+    .photo_gallery .row > *.big
+    {
+        width: calc(41.437% - 12px);
+    }
+
+
+    .photo_gallery img
+    {
+        height: 156px;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .item
+    {
+        padding: 11px 0;
+    }
+
+
+
+    /*------------
+        Brands
+    ------------*/
+    .brands .swiper-button-next,
+    .brands .swiper-button-prev
+    {
+        margin-bottom: 54px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .contacts
+    {
+        font-size: 12px;
+    }
+
+
+    footer .contacts .time
+    {
+        margin-top: 4px;
+    }
+
+
+    footer .messengers
+    {
+        margin-left: 20px;
+    }
+
+
+    footer .messengers > * + *
+    {
+        margin-left: 12px;
+    }
+
+
+    footer .callback_btn
+    {
+        width: 184px;
+        margin-left: 20px;
+    }
+
+
+    footer .links > * + *
+    {
+        margin-left: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #callback_modal .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+    #callback_modal .form .submit_btn
+    {
+        height: 52px;
+
+        border-radius: 5px;
+    }
+}
