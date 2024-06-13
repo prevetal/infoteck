@@ -755,6 +755,13 @@
     }
 
 
+    .product_kit .cont > .swiper .swiper-button-next,
+    .product_kit .cont > .swiper .swiper-button-prev
+    {
+        margin-bottom: 16px;
+    }
+
+
     .product_kit .row
     {
         margin-left: -24px;

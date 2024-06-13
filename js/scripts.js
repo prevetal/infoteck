@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Products slider
 	const productsSliders = [],
 		productsThumbsSliders = [],
-		products = document.querySelectorAll('.products .cont > .swiper'),
-		productThumbs = document.querySelectorAll('.product .images .swiper')
+		products = document.querySelectorAll('.products:not(.product_kit) .cont > .swiper'),
+		productThumbs = document.querySelectorAll('.product:not(.product_kit) .images .swiper')
 
 	productThumbs.forEach((el, i) => {
 		el.classList.add('products_thumbs_s' + i)
@@ -106,6 +106,41 @@ document.addEventListener('DOMContentLoaded', function () {
 		}
 
 		productsSliders.push(new Swiper('.products_s' + i, options))
+	})
+
+
+	// Product kits
+	const productKitsSliders = [],
+		productKits = document.querySelectorAll('.product_kit .cont > .swiper')
+
+	productKits.forEach((el, i) => {
+		el.classList.add('product_kit_s' + i)
+
+		let options = {
+			loop: true,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			spaceBetween: 20,
+			slidesPerView: 1,
+			on: {
+				init: swiper => setHeight(swiper.el.querySelectorAll('.product .name')),
+				resize: swiper => {
+					let productNames = swiper.el.querySelectorAll('.product .name')
+
+					productNames.forEach(el => el.style.height = 'auto')
+
+					setHeight(productNames)
+				}
+			}
+		}
+
+		productKitsSliders.push(new Swiper('.product_kit_s' + i, options))
 	})
 
 

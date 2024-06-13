@@ -781,9 +781,29 @@
     /*-----------------
         Product kit
     -----------------*/
-    .product_kit .discount
+    .product_kit .block_title
     {
-        width: 160px;
+        margin-bottom: 20px;
+    }
+
+
+    .product_kit .cont > .swiper .swiper-button-next,
+    .product_kit .cont > .swiper .swiper-button-prev
+    {
+        display: flex;
+    }
+
+
+    .products.product_kit .row > *.product,
+    .content .products.product_kit .row > *.product
+    {
+        width: calc(50% - 30px);
+    }
+
+
+    .product_kit .plus
+    {
+        margin: 0 10px;
     }
 
 

@@ -458,9 +458,23 @@
     /*-----------------
         Product kit
     -----------------*/
-    .product_kit .discount
+    .products.product_kit .row > *.product,
+    .content .products.product_kit .row > *.product
     {
-        width: 148px;
+        width: 100%;
+    }
+
+
+    .product_kit .plus,
+    .product_kit .equally
+    {
+        margin: 24px auto !important;
+    }
+
+
+    .product_kit .discount > span
+    {
+        display: block;
     }
 
 
